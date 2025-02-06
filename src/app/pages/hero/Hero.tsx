@@ -4,15 +4,8 @@
 import RetroGrid from "@/components/ui/retro-grid";
 import DockBar from "@/components/ui/ui/DockBar"
 import TypingAnimation from "@/components/ui/typing-animation";
-import IconCloud from "@/components/ui/icon-cloud";
-import TextRevealByWord from "@/components/ui/text-reveal";
-import SparklesText from "@/components/ui/sparkles-text";
 import HyperText from "@/components/ui/hyper-text";
-import BlurIn from "@/components/ui/blur-in";
-import Cursor from "@/components/cursor/cursor";
-import Sidebar from "@/components/sidebar/Sidebar";
-import { motion } from "framer-motion";
-import RippleButton from "@/components/ui/ripple-button";
+import Cursor from "../../../components/cursor/Cursor";
 import { CheckIcon, Download } from "lucide-react";
 import { AnimatedSubscribeButton } from "@/components/ui/animated-subscribe-button";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
@@ -32,39 +25,6 @@ const textVariants = {
         },
     }
 }
-
-const slugs = [
-    "typescript",
-    "javascript",
-    "dart",
-    "java",
-    "react",
-    "flutter",
-    "android",
-    "html5",
-    "css3",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "prisma",
-    "amazonaws",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
-    "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
-    "figma",
-];
 
 const titles = [
     "Fullstack Engineer",
