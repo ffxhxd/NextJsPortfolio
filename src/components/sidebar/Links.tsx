@@ -47,7 +47,7 @@ const Links = () => {
           {item}
         </motion.a>
       ))}
-      <h1 className="text-xs md:text-sm mt-4 text-white">Last updated: 21-01-2024</h1>
+      <h1 className="text-xs md:text-sm mt-4 text-white">Last Build 🚀: 02-06-2025</h1>
     </motion.div>
   );
 };

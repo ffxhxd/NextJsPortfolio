@@ -73,7 +73,7 @@ const Aboutme = () => {
       {/* Bottom section */}
       {/* <div className="relative flex flex-col items-center justify-center overflow-hidden md:col-span-2 bg-red-600 h-[500px] w-full"> */}
         {/* Add your content for the bottom section here */}
-        -
+        
       {/* </div> */}
     </div>
   );
